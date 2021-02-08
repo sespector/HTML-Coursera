@@ -1,0 +1,102 @@
+
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: Calibri;
+}
+
+body {
+  background-color: #ebf8fc;
+}
+
+h1 {
+  font-family:;
+  text-align: center;
+  color: #f05060;
+  font-size: 220%;
+  letter-spacing: 3px;
+  font-style: ;
+}
+
+section {
+  border: 1px solid black;
+  border-radius: 25px;
+  background-color: #bde1ff;
+  margin: 10px;
+  min-height: 190px;
+  }
+
+section>h2 {
+  float: right;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  text-align: center;
+  font-size: 150%;
+  letter-spacing: 1px;
+  height: 40px;
+  width: 150px;
+  margin: 0;
+  padding-top: 4px;
+  color: #474747;
+}
+
+p {
+  padding: 37px 15px 0px 15px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.footer {
+  width: 100%;
+  text-align: right;
+  padding: 15px;
+  font-size: 70%;
+}
+
+.row {
+  width: 100%;
+}
+
+section.cumulus>h2 {
+  background-color: #ffc891;
+}
+
+section.stratus>h2 {
+  background-color: #ffe791;
+}
+
+section.cirrus>h2 {
+  background-color: #d5ff91;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    width: 100%
+  }
+}
