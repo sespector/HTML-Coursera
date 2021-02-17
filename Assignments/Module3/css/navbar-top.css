@@ -1,0 +1,73 @@
+/* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+  padding-top: 0;
+}
+
+/* Begin custom stylesheet*/
+.navbar{
+ background: #41b0ac;
+ padding: 0rem;
+}
+
+.navbar-dark .navbar-brand {
+ font-family: 'Permanent Marker', cursive;
+ font-size: 2.8em;
+ text-shadow: 4px 4px #4c4d4c;
+ color: #fcba03;
+ padding-left: 2rem;
+ }	
+
+.navbar-brand>span {
+ font-size: .6em;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: grey;
+}
+
+#navbarCollapse {
+	background: #ffc107;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: rgba(255,255,255,.8);
+}
+
+.main-content {
+	padding: 20px 30px 30px 30px;
+}
+
+h1 {
+    font-size: 27px;
+    font-weight: 400;
+    color: #4c4d4c;
+    padding: 20px;
+    letter-spacing: 3px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+    font-style: ;
+    color: #faa405;
+    letter-spacing: 3px;
+}
+
+p {
+ font-weight: 300;
+}
+
+@media (min-width: 768px) {
+.navbar-expand-md .navbar-collapse {
+    display: none!important;
+   }
+ }
+
+div.container-fluid {
+	padding:0;
+}
+
+button {
+	margin: 15px;
+}
