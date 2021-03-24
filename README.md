@@ -6,4 +6,6 @@ This repository contains my solutions to the assignments of the Coursera course 
 * [Module 3 Solution](https://sespector.github.io/HTML-Coursera/Assignments/Module3/)
 * [Module 3 Optional Solution](https://sespector.github.io/HTML-Coursera/Assignments/Module3a/) <hr>
 * [Module 4 Assignment](https://sespector.github.io/HTML-Coursera/Assignments/Module4/Assignment-4.md)
-* [Module 4 Solution](https://sespector.github.io/HTML-Coursera/Assignments/Module4/)
+* [Module 4 Solution](https://sespector.github.io/HTML-Coursera/Assignments/Module4/) <hr>
+* [Module 5 Assignment](https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment5/Assignment-5.md)
+* [Module 5 Solution](https://sespector.github.io/HTML-Coursera/Assignments/Module5/)
